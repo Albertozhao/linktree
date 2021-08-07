@@ -2,7 +2,7 @@ import links from "./links"
 
 class AvatarRewriter {
     element(element) {
-        element.setAttribute("src", "https://raw.githubusercontent.com/Albertozhao/linktree/main/images/jae-phan-resized.png")
+        element.setAttribute("src", "https://raw.githubusercontent.com/Albertozhao/linktree/main/images/jae-phan.jpg")
     }
 }
 
@@ -19,7 +19,7 @@ class HeadRewriter {
     element(element) {
         element.append(
             // eslint-disable-next-line quotes
-            '<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Albertozhao/linktree/main/images/jae-phan-resized.png">',
+            '<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Albertozhao/linktree/main/images/jae-phan.jpg">',
             {
                 html: true,
             },
